@@ -1,26 +1,4 @@
 
-  
-//点击图片触发视频播放
-//1、绑定单击事件
-//2、取得播放器对象
-//3、调用视频播放
-
-
- //在页面初始化时为图片绑定点击事件
-    $(function(){
-        $("#controlpic").click(function(){
-            //此处写点击触发的操作
-            $(this).css("zsvideo","none");
-            //1、取得播放器的对象
-            var objVideo=$("#video1");
-            //2、调用视频播放API
-            objVideo.play();
-             
-            //视频停止API
-            //objVideo.pause();
-        });
-    })
-
 //幻灯片
 function getByClass(oParent,sClass) {
         var aMent = oParent.getElementsByTagName("*");
@@ -123,35 +101,3 @@ function getByClass(oParent,sClass) {
             };
     };
 
-
-
-//	
-//$(function(){
-//		//对话框弹出、隐藏
-//		$("#consult").click(function(){
-//			$("#service").show();
-//		});
-//		
-//		$("#quxiao").click(function(){
-//			$("#service").hide();
-//		});
-//	});  
-//
-//
-//
-////鼠标拖拽对话框
-//	window.onload=function(){
-//		let sevTalkBox=document.getElementById('service');
-//		sevTalkBox.onmousedown = function(event){
-//			let reX = event.offsetX;
-//			let reY = event.offsetY;
-//			document.onmousemove = function(event){
-//				sevTalkBox.style.left = event.clientX - reX +"px";
-//				sevTalkBox.style.top = event.clientY - reY + "px";
-//			}
-//		}
-//		document.onmouseup = function(){
-//			document.onmousemove = null;
-//		}
-//	}
-//

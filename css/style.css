@@ -489,7 +489,7 @@ header:hover .erji{
 	position:absolute; 
 	width:60px; 
 	height:60px; 
-	background:url('images/btn.gif') left top no-repeat; 
+	background:url(../images/btn.gif) left top no-repeat; 
 	z-index:3001; 
 	top:130px; 
 	left:50px;
@@ -500,7 +500,7 @@ header:hover .erji{
 	position:absolute; 
 	width:60px; 
 	height:60px; 
-	background:url('images/btn.gif') left -60px no-repeat;
+	background:url(../images/btn.gif) left -60px no-repeat;
 	z-index:3001;
 	top:130px; 
 	right:10px;

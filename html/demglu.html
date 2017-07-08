@@ -5,8 +5,10 @@
 		<title></title>
 		<link href="css/denglu.css" rel="stylesheet" type="text/css">
 		<link href="css/gonggong.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/cookieTools.js"></script>
 		<script type="text/javascript" src="../js/jquery.1.4.2-min.js"></script>
 		<script type="text/javascript" src="js/zzsc1.js"></script>
+		<script type="text/javascript" src="js/denglu.js"></script>
 	</head>
 	<body>
 		<!---------------------------------------------nav--------------------------------------------->
@@ -92,13 +94,14 @@
 							</p>
 						</div>
 						<div class="biao">
-							<from method="post" action="php/reg.php">
+							<from action="php/reg.php" method="post">
 								<ul>
 									<li>
-										<input type="text" placeholder="请输入手机号/邮箱/用户名" name="zhanghao" />
+										<input id="userId" type="text" placeholder="请输入手机号/邮箱/用户名" name="zhanghao" />
+										<span id="showUser"></span>
 									</li>
 									<li>
-										<input type="password" placeholder="请输入密码" name="password" />
+										<input id="userPass" type="password" placeholder="请输入密码" name="password" />
 									</li>
 									<li>
 										<p>
@@ -110,10 +113,10 @@
 									</li>
 									<li>
 										<div class="d1">
-											<input type="button" value="注册" onclick="zhuce"/>
+											<a href="zhuce.html"><input type="button" value="注册" onclick="zhuce"/></a>
 										</div>
 										<div class="d2">
-											<input type="button" value="登录" onclick="denglu"/>
+											<input type="button" value="登录" onclick="denglu" id="btnLogin"/>
 										</div>
 									</li>									
 								</ul>
