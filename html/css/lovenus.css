@@ -1,0 +1,32 @@
+.spec_imgs{
+	margin:0 auto;
+	width:100%;
+	max-width:1920px;
+}
+.spec_imgs .nav{
+	background:url(../../images/lovenus-images/xfbg.png) no-repeat;
+	width:140px;
+	height:465px;
+	position: fixed;
+	top:100px;
+	left:2px;
+	z-index: 1000;
+}
+.spec_imgs .nav .nav_blank{
+	height:130px;
+}
+.spec_imgs a{
+	text-decoration: none;
+}
+.spec_imgs .nav a{
+	display: block;
+	height:35px;
+	padding-left:45px;
+	color:#313e32;
+	font:16px/38px "";
+}
+.spec_imgs .nav .nav2{
+	font:12px/388px "";
+	height:28px;
+	line-height: 28px;
+}

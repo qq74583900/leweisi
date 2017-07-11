@@ -307,7 +307,7 @@ header:hover .erji{
 #weiyi .picture .stylePic ul li .smallimg .move1{
 	float:right;
 	cursor: pointer;
-	padding-top:-15px;
+	margin-top:12px;
 	padding-right:10px;
 	width:24px;
 	height:23px;
@@ -456,6 +456,9 @@ header:hover .erji{
 #weiyi .four dd form ul{
 	margin:9px 0 3px 24px;
 }
+#weiyi .four dd form .quality{
+	position: relative;
+}
 #weiyi .four dd form .quality .material{
 	line-height: 34px;
 	color:#ccc;
@@ -490,7 +493,6 @@ header:hover .erji{
 	float:left;
 }
 #weiyi .four dd form .quality li:nth-child(2){
-	display: block;
 	float:left;
 }
 #weiyi .four dd form .quality li:nth-child(2) span{
@@ -502,8 +504,21 @@ header:hover .erji{
 	border:0;
 	cursor: pointer;
 	float:left;
-	background:url(../../images/detail-images/bg_quality.gif) no-repeat;
+	background:url(../../images/detail-images/bg_normal.jpg) no-repeat;
 }
+
+#weiyi .four dd form .quality li:nth-child(2) span:hover{
+	background:url(../../images/detail-images/bg_quality.gif) no-repeat;
+	text-align: center;
+	width:59px;
+	height:24px;
+	line-height: 24px;
+	margin:5px 4px 0 0;
+	border:0;
+	cursor: pointer;
+	float:left;
+}
+
 #weiyi .four dd form .quality .spec_info{
 	line-height: 34px;
 	color:#666;

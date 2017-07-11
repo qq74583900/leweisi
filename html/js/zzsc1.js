@@ -46,9 +46,7 @@ $(function(){
 		}
 	}
 	
-	
-	
-	
+		
 	
 // 定时弹窗
 setTimeout(function(){//2秒后显示ʾ
@@ -57,12 +55,6 @@ setTimeout(function(){//2秒后显示ʾ
 setTimeout(function(){//5秒后隐藏
     $("#popu").fadeOut();
 }, 3000);
-
-
-
-
-
-
 
 
 //返回顶部
